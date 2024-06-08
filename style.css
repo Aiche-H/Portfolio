@@ -122,7 +122,7 @@ header img {
 	flex-flow: row wrap;
 	align-items: center;
 	justify-content: space-around;
-	height: 980px;
+	min-height: 980px;
 	padding: 35px;
 	font-size: 16px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -153,7 +153,7 @@ header img {
 	align-items: center;
 	justify-content: space-around;
 	text-align: center;
-	height: 980px;
+	min-height: 980px;
 	border-bottom: 2px solid #2BF0F4;
 	box-shadow: 0px 10px 25px 0px rgba(20, 152, 230, 1);
 }
