@@ -90,7 +90,7 @@ header {
 header svg {
 	font-family: "Playfair", sans-serif;
 	width: 70vw; 
-	height: 150px;
+	height: 16vw;
 }
 header svg text {
 	animation: stroke 4s infinite alternate;
@@ -115,8 +115,8 @@ header svg text {
 }
 
 header img {
-	height: 200px;
-	width: 200px;
+	height: 16vw;
+	width: 16vw;
 	margin: 25px;
 	border: 2px solid #2BF0F4;
 	border-radius: 15px;
