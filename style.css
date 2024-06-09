@@ -124,7 +124,7 @@ header img {
 }
 
 header img:hover {
-	cursor: url('img/hello-there.png'), auto;
+	cursor: url('img/hello-there.png') 30 30, auto;
 }
 
 #aboutme {
