@@ -92,12 +92,13 @@ header svg {
 	font-family: "Playfair", sans-serif;
 	width: 70vw; 
 	height: 16vw;
+ 	min-height: 150px;
 }
 header svg text {
 	animation: stroke 4s infinite alternate;
 	stroke-width: 2;
 	stroke: #2BF0F4;
-	font-size: 8vw;
+	font-size: 9vw;
 	text-shadow: 1px 1px 25px rgba(20, 152, 230, 1),
              -1px -1px 25px rgba(20, 152, 230, 1);
 }
@@ -118,6 +119,8 @@ header svg text {
 header img {
 	height: 16vw;
 	width: 16vw;
+	min-height: 150px;
+	min-width: 150px;
 	margin: 25px;
 	border: 2px solid #2BF0F4;
 	border-radius: 15px;
