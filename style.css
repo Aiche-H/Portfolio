@@ -67,7 +67,7 @@ nav ul li a {
     color: rgba(232,255,254,1);
     text-decoration: none;
 	font-size: 18px;
-	margin: 4px;
+	padding: 10px;
 }
 
 nav ul li :hover {
@@ -129,7 +129,7 @@ header img {
 
 header img:hover {
 	cursor: url('img/hello-there.png') 30 30, auto;
-	animation: wobwob 1s ease 0s 1 normal none;
+	animation: hello 2s cubic-bezier(0.37, 0, 0.63, 1) 0s infinite normal none;
 }
 
 #aboutme {
@@ -224,6 +224,37 @@ header img:hover {
 	  transform: translateX(-6px) rotate(-1deg);
 	}
   }
+  @keyframes hello {
+	0%,
+	100% {
+	  transform: rotate(0deg);
+	  transform-origin: 50% 100%;
+	}
+  
+	10% {
+	  transform: rotate(2deg);
+	}
+  
+	20%,
+	40%,
+	60% {
+	  transform: rotate(-4deg);
+	}
+  
+	30%,
+	50%,
+	70% {
+	  transform: rotate(4deg);
+	}
+  
+	80% {
+	  transform: rotate(-2deg);
+	}
+  
+	90% {
+	  transform: rotate(2deg);
+	}
+  }
   
 
 #contact {
@@ -259,27 +290,27 @@ header img:hover {
 	}
   
 	10% {
-	  transform: rotate(2deg);
+	  transform: rotate(1deg);
 	}
   
 	20%,
 	40%,
 	60% {
-	  transform: rotate(-4deg);
+	  transform: rotate(-2deg);
 	}
   
 	30%,
 	50%,
 	70% {
-	  transform: rotate(4deg);
+	  transform: rotate(2deg);
 	}
   
 	80% {
-	  transform: rotate(-2deg);
+	  transform: rotate(-1deg);
 	}
   
 	90% {
-	  transform: rotate(2deg);
+	  transform: rotate(1deg);
 	}
   }
   
