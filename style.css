@@ -254,7 +254,7 @@ header img:hover {
 	display: flex;
 	flex-flow: row wrap;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	height: 200px;
 	margin: 40px;
 }
