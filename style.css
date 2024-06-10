@@ -165,8 +165,8 @@ header img:hover {
 	padding: 35px;
 	display: flex;
 	flex-flow: row wrap;
-	align-items: center;
-	justify-content: space-around;
+	align-content: center;
+	justify-content: space-between;
 	text-align: center;
 	min-height: 980px;
 	border-bottom: 2px solid #2BF0F4;
@@ -180,6 +180,7 @@ header img:hover {
 }
 
 #projects img {
+	margin-top: 50px;
 	border-radius: 15px;
 	box-shadow: 0px 0px 5px 0px rgba(20, 152, 230, 1);
 }
@@ -187,14 +188,6 @@ header img:hover {
 #projects a :hover {
 	box-shadow: 0px 0px 35px 0px rgba(20, 152, 230, 1);
 	animation: wobwob 1s ease 0s 1 normal none;
-}
-
-.hidden {
-	opacity: 0;
-}
-
-.in-view{
-	opacity: 1;
 }
 
 @keyframes wobwob {
@@ -261,7 +254,7 @@ header img:hover {
 	display: flex;
 	flex-flow: row wrap;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-between;
 	height: 200px;
 	margin: 40px;
 }
@@ -274,6 +267,7 @@ header img:hover {
 }
 
 #contact img{
+	margin: 15px;
 	border-radius: 15px;
 	box-shadow: 0px 0px 35px 0px rgba(20, 152, 230, 1);
 }
