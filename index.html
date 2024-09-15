@@ -2,94 +2,225 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="Portfolio" content="My portfolio">
-    <meta name="keywords" content="HTML, CSS, JavaScript, Portfolio, Web, developer">
-    <meta name="author" content="Henrikki Gren">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="img/MyLogo.png" type="image/x-icon">
-    <title>Henrikki</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/logos/MyLogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="./lib/css/aos.css">
+    <link rel="stylesheet" href="./lib/css/materialize.css">
+    <link rel="stylesheet" href="./assets/css/customstyle.css">
+
+    <meta name="description" content="Portfolio page of Henrikki.">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:title" content="Aiche-H Portfolio">
+    <meta property="og:description" content="Portfolio page of Henrikki.">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="#">
+    <meta property="og:url" content="#">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Portfolio">
+    <meta name="twitter:description" content="Portfolio page of Henrikki.">
+    <meta name="twitter:image" content="#">
+
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="translate:no">
+    <meta name="language" content="en">
+    <meta name="author" content="Aiche-H">
+    <meta name="date" content="#">
+
+    <title>Henrikki Portfolio</title>
 </head>
-
-
 <body>
-    <nav>
-        <ul>
-            <li>
-                <a href="#aboutme">|About me|</a>
-                <a href="#projects">|Projects|</a>
-                <a href="#contact">|Contact me|</a>
-            </li>
-        </ul>
-    </nav>
+
     <header>
-        <section class="wrapper">
-            <svg>
-                <text x="50%" y="50%" dy=".35em" text-anchor="middle">
-                    Henrikki Gren
-                </text>
-            </svg>
-        </section>
+        <nav class="nav-wrapper black border-neo-bottom">
+            <div class="container">
+            <a href="#" class="brand-logo"><img src="./assets/logos/AicheText.png" alt="Logo"></a>
+            <a href="#" class="sidenav-trigger" data-target="mobile-menu"><i class="material-icons">menu</i></a>
 
-        <img src="img/me.jpg" alt="this is my face">
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#CV">Curriculum Vitae</a></li>
+                <li><a href="./contact_form/form.html">Contact Form</a></li>
+            </ul>
 
+            <ul class="sidenav black" id="mobile-menu">
+                <li><a href="#about" class="white-text">About</a></li>
+                <li><a href="#projects" class="white-text">Projects</a></li>
+                <li><a href="#CV" class="white-text">Curriculum Vitae</a></li>
+                <li><a href="./contact_form/form.html" class="white-text">Contact Form</a></li>
+            </ul>
+        </div>
+        </nav>
+
+        <div class="myvid">
+        <div class="glitch-wrapper">
+            <div class="glitch mask1" data-text="Henrikki Gren">Henrikki Gren</div>
+         </div>
+        <video src="./assets/videos/27239-362518579_small.mp4" autoplay muted loop id="background-video" class="mask1"></video>
+        </div>
     </header>
 
-    <article id="aboutme">
+
+    <main>
+
+        <div class="customcarousel">
+            <div class="gallery mask2">
+                <img src="./assets/images/ribbon1.png" class="uribbon1">
+                <img src="./assets/images/ribbon2.png" class="uribbon2">
+                <img src="./assets/images/ribbon1.png" class="uribbon3">
+            </div>
+        </div>
+
+        <section class="container section center" id="about">
+            <h1>About me</h1>
+            <div class="row">
+                <div class="col l8">                        
+                    <div data-aos="fade-right">
+                        <p>I'm a passionate web development student with a strong foundation in frontend and backend technologies. I'm currently honing my skills in <strong>JavaScript</strong>, <strong>TypeScript</strong>, <strong>CoffeeScript</strong>, <strong>CSS</strong>, <strong>LESS</strong> and <strong>Bootstrap</strong>, and markup languages like <strong>HTML</strong>.</p>
+                    </div>    
+                
+                
+                    <div data-aos="fade-right">
+                        <p>Additionally, I'm learning content management systems like <strong>WordPress</strong>, and development frameworks like <strong>Node.js</strong>, <strong>Next.js</strong>, and <strong>Tailwind CSS</strong>. To complement my development skills.</p>
+                    </div>
+
+                    <div data-aos="fade-right">
+                        <p>I'm also well-versed in design tools like <strong>Figma</strong> and <strong>Elementor</strong>, and possess a strong understanding of various digital media editing tools. This comprehensive skillset allows me to tackle projects from the ground up, ensuring a seamless user experience across all devices.  For mobile development, I'm learning <strong>React Native</strong>, and on the backend, I have some experience with <strong>PHP</strong> and databases like <strong>MySQL/MariaDB</strong> and <strong>MongoDB</strong>.</p>
+                    </div>
+            </div>
+                <div class="col l2 hide-on-med-and-down" data-aos="fade-left">
+                    <img src="./assets/images/mypic.jpg" alt="picture of me" class="mypic">
+                </div>
+                
+            </div>
+        </section> 
+
+            <div class="customcarousel">
+                <div class="gallery mask2">
+                    <img src="./assets/images/ribbon1.png" class="ribbon1">
+                    <img src="./assets/images/ribbon2.png" class="ribbon2">
+                    <img src="./assets/images/ribbon1.png" class="ribbon3">
+                </div>
+            </div>
+
+            <section class="projects center" id="projects">
+                <h1>Projects</h1>
+                <div class="projectdp">
+                    <div>
+                        <a href="https://aiche-h.github.io/dynamic-text-input-canvas/" target="_blank"><img src="./assets/images/Screenshot 2024-06-08 164550.png" alt="project1"></a>
+                        <p>
+                            A dynamic input to generate text that responds to mouse
+                        </p>
+                    </div>
+
+                    <div>
+                        <a href="https://aiche-h.github.io/quote-generator/" target="_blank"><img src="./assets/images/Screenshot 2024-06-08 170240.png" alt="project2"></a>
+                        <p>
+                            Random quote generator to motivate you for the day.
+                        </p>
+                    </div>
+
+                    <div>
+                        <a href="https://aiche-h.github.io/raven-hunt/" target="_blank"><img src="./assets/images/Screenshot 2024-06-08 170602.png" alt="project3"></a>
+                        <p>
+                            Point & shoot game similar to duck hunt.
+                        </p>
+                    </div>
+
+                    <div>
+                        <a href="https://aiche-h.github.io/tic-tac-toe/" target="_blank"><img src="./assets/images/Screenshot 2024-06-10 184626.png" alt="project4"></a>
+                        <p>
+                            Tic tac toe game in a local environment.
+                        </p>
+                    </div>
+                </div>
+                <div class="container center">
+                    <h5>Want to see my projects in action? Check out my GitHub for more.</h5><a href="https://github.com/Aiche-H"><img src="./assets/icons/github.png" alt=""></a>
+                </div>
+            </section>
+            <div class="parallax-container mask3">
+                <div class="parallax">
+                    <img src="./assets/images/big-data-7644531_1280.jpg" alt="">
+                </div>
+            </div>
         
-        <p>
-            <strong><big>About me:</big></strong>
-            <br><br>
-            I'm a passionate web development student with a strong foundation in frontend and backend technologies. I'm currently honing my skills in <strong>JavaScript</strong>, <strong>TypeScript</strong>, <strong>CoffeeScript</strong>, <strong>CSS</strong>, <strong>LESS</strong> and <strong>Bootstrap</strong>, and markup languages like <strong>HTML</strong>.
-            <br><br>
-            Additionally, I'm learning content management systems like <strong>WordPress</strong>, and development frameworks like <strong>Node.js</strong>, <strong>Next.js</strong>, and <strong>Tailwind CSS</strong>. To complement my development skills.
-            <br><br>
-            I'm also well-versed in design tools like <strong>Figma</strong> and <strong>Elementor</strong>, and possess a strong understanding of various digital media editing tools. This comprehensive skillset allows me to tackle projects from the ground up, ensuring a seamless user experience across all devices.  For mobile development, I'm learning <strong>React Native</strong>, and on the backend, I have some experience with <strong>PHP</strong> and databases like <strong>MySQL/MariaDB</strong> and <strong>MongoDB</strong>.
-        </p>
 
-        <img src="img/stack.png" alt="development tool" id="mypic">
-    </article>
+            <section class="CV" id="CV">
+                <div class="container  center" data-aos="zoom-in">
+                    <h4>Interested in learning more about my skills and experience?</h4>
+                    <p>As a passionate and dedicated web developer, I've been honing my skills through a combination of formal education and hands-on projects. Download my CV to learn more about my technical expertise and how I can make a positive impact on your team.</p>
+                </div>
+                <div class="container center">
+                    <button class="btn white" id="downloadbtn"  data-aos="zoom-in" onclick="downloadFile('Henrikki_CV.pdf')"><i class="material-icons indigo-text darken-4">download</i></button>
+                </div>
+            </section>
 
-    <article id="projects">
-        <div>
-            <a href="https://aiche-h.github.io/dynamic-text-input-canvas/" target="_blank"><img src="img/Screenshot 2024-06-08 164550.png" alt="project1"></a>
-            <p>
-                A dynamic input to generate text that responds to mouse
-            </p>
-        </div>
-        <div>
-            <a href="https://aiche-h.github.io/quote-generator/" target="_blank"><img src="img/Screenshot 2024-06-08 170240.png" alt="project2"></a>
-            <p>
-                Random quote generator to motivate you for the day.
-            </p>
-        </div>
-        <div>
-            <a href="https://aiche-h.github.io/raven-hunt/" target="_blank"><img src="img/Screenshot 2024-06-08 170602.png" alt="project3"></a>
-            <p>
-                Point & shoot game similar to duck hunt.
-            </p>
-        </div>
-        <div>
-            <a href="https://aiche-h.github.io/tic-tac-toe/" target="_blank"><img src="img/Screenshot 2024-06-10 184626.png" alt="project4"></a>
-            <p>
-                Tic tac toe game in a local environment.
-            </p>
-        </div>
-    </article>
-        
+            <div class="parallax-container mask3">
+                <div class="parallax">
+                    <img src="./assets/images/big-data-7644531_1280.jpg" alt="">
+                </div>
+            </div>
+            
+            <section>
+            <div class="container center">
+                <h5>Closing Message</h5>
+                <p>I've put a lot of effort into creating this portfolio, and I'm so glad you've taken the time to look through <br>I hope my projects and social media links have sparked your interest. <br>I'm eager to connect with people who share my passion for web development, coding and technology.</p>
+            </div>
+            </section>
 
-    
+    </main>
 
 
-    <footer id="contact">
-        <p><strong><big>Contact me:</big></strong></p>
-        <a href="https://github.com/Aiche-H" target="_blank"><img src="img/github.png" alt="github"></a>
-        <a href="https://www.linkedin.com/in/henrikki-gren-b41b1b2b8/" target="_blank"><img src="img/linkedin.png" alt="linkedin"></a>
-        <a href="mailto:henrikki.gren@hotmail.com"><img src="img/email.png" alt="Email me"></a>
-        
+    <footer>
+        <footer class="page-footer black border-neo-top font-small">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m8 l6">
+                        <div class="container center">
+                        <h5 class="white-text">Contact</h5>
+                            <ul>
+                                <li><a href="https://github.com/Aiche-H">GitHub</a></li>
+                                <li><a href="https://www.linkedin.com/in/henrikki-gren-b41b1b2b8/">LinkedIn</a></li>
+                                <li><a href="mailto:henrikki.gren@hotmail.com">Email</a></li>
+                                <li><a href="./contact_form/form.html">Contact Form</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col s12 m4 l6">
+                        <div class="container center">
+                            <h5 class="white-text">Credits</h5>
+                            <p class="grey-text text-lighten-4">Made using:</p>
+                            <ul>
+                                <li><a href="https://michalsnik.github.io/aos/">AOS (Animate on Scroll)</a></li>
+                                <li><a href="https://jquery.com">jQuery</a></li>
+                                <li><a href="https://materializecss.com">Materialize CSS</a></li>
+                                <li><a href="https://www.emailjs.com">EmailJS</a></li>
+                                <li><a href="https://www.cssportal.com">CSS Portal</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+                <div class="footer-copyright">
+                    <div class="container center">
+                        <button class="btn white" id="downloadbtn" onclick="downloadFile('Henrikki_CV.pdf')"><a class="black-text" href="#!">Download CV</a></button>
+                    </div>
+                </div>
+        </footer>
     </footer>
-       
-
-    <script src="script.js"></script>
+    
+    <a href="#" class="back-to-top"><i class="material-icons">arrow_upward</i></a>
+    <script src="./lib/js/aos.js"></script>
+    <script src="./lib/js/jquery-3.7.1.min.js"></script>
+    <script src="./lib/js/materialize.js"></script>
+    <script src="./assets/scripts/customscript.js"></script>
 </body>
 </html>
