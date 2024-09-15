@@ -13,7 +13,7 @@ Want to connect?
 
 ## Feel free to reach out to me!
 
-##Stay Updated!
+**Stay Updated!**
 
 I'm constantly learning and creating new things. Follow me on [Linkedin](https://www.linkedin.com/in/henrikki-gren-b41b1b2b8/) and [Github](https://github.com/Aiche-H) for updates and announcements!
 
