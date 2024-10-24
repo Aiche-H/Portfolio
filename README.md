@@ -1,4 +1,4 @@
-## Welcome!
+# Welcome
 
 This is my online portfolio, a space to showcase my skills and experience.
 
@@ -11,7 +11,7 @@ Skills: Get a sense of my technical abilities and experience.
 About Me: Learn a little more about me and what drives me.
 Want to connect?
 
-## Feel free to reach out to me!
+## Feel free to reach out to me
 
 **Stay Updated!**
 
