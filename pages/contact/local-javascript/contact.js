@@ -1,10 +1,14 @@
+
+const SEVICE_ID = "service_aiche";
+const TEMPLATE_ID = "template_v8d3ius";
+const FORM = document.getElementById("myForm");
+const THEME = localStorage.getItem("theme");
+
 let cooldown = false;
-const serviceID = "service_aiche";
-const templateID = "template_v8d3ius";
 
-const form = document.getElementById("myForm");
 
-form.addEventListener("submit", function (event) {
+
+FORM.addEventListener("submit", function (event) {
   event.preventDefault();
   if (cooldown) return; // if cooldown is true, do nothing
 
@@ -30,7 +34,7 @@ form.addEventListener("submit", function (event) {
     return;
   }
 
-  emailjs.send(serviceID, templateID, templateParams).then((response) => {
+  emailjs.send(SEVICE_ID, TEMPLATE_ID, templateParams).then((response) => {
     if (response.status === 200) {
       console.log("Email sent!");
       console.log(response.status, response.text);
@@ -42,3 +46,9 @@ form.addEventListener("submit", function (event) {
     }
   });
 });
+
+if (THEME === "dark") {
+  document.body.classList.add("bodyDark");
+} else {
+  document.body.classList.add("bodyLight");
+}

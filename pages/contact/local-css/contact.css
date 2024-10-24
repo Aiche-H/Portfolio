@@ -8,8 +8,6 @@ body {
   align-items: center;
   justify-content: center;
   width: clamp(300px, 50dvw, 700px);
-  font-family: var(--font-family);
-  text-shadow: var(--text-shadow);
 }
 
 label {
