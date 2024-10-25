@@ -1,12 +1,9 @@
-
 const SEVICE_ID = "service_aiche";
 const TEMPLATE_ID = "template_v8d3ius";
 const FORM = document.getElementById("myForm");
 const THEME = localStorage.getItem("theme");
 
 let cooldown = false;
-
-
 
 FORM.addEventListener("submit", function (event) {
   event.preventDefault();

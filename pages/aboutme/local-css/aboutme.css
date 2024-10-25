@@ -1,0 +1,12 @@
+.informationContainer {
+  grid-area: 2 / 2 / 7/ 6;
+  min-height: 60%;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+main {
+  min-height: 100dvh;
+}
