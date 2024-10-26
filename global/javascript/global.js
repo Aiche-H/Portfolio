@@ -1,5 +1,4 @@
 const MENU_BUTTON = document.getElementById("menuButton");
-const THEME_BUTTON = document.getElementById("themeButton");
 const HEADER = document.querySelector("header");
 const BUTTONS = document.querySelectorAll("button");
 
@@ -14,18 +13,6 @@ MENU_BUTTON.addEventListener("click", () => {
   } else {
     HEADER.style.display = "none";
     MENU_BUTTON.style.position = "static";
-  }
-});
-
-THEME_BUTTON.addEventListener("click", () => {
-  if (document.body.classList.contains("bodyDark")) {
-    document.body.classList.remove("bodyDark");
-    document.body.classList.add("bodyLight");
-    localStorage.setItem("theme", "light");
-  } else {
-    document.body.classList.remove("bodyLight");
-    document.body.classList.add("bodyDark");
-    localStorage.setItem("theme", "dark");
   }
 });
 
